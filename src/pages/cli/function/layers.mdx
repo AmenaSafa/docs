@@ -113,7 +113,7 @@ Any assets like large images or other files that you want to share across variou
 
 Every time `amplify push` or `amplify update function` is run, Amplify CLI checks if a layer's content has changed and automatically creates a new *layer version*. Layer versions are immutable and functions always use a specific layer version. 
 
-In order to speed up deployments when vast amount of node_modules exist, Amplify CLI scans only for changes within each module's `package.json` file. If you don't see Amplify CLI detect your latest changes, verify that at least of your node module's `package.json` content has changed.
+In order to speed up deployments when vast amount of node_modules exist, Amplify CLI scans only for changes within each module's `package.json` file. If you don't see Amplify CLI detect your latest changes, verify that at least one of your node module's `package.json` content has changed.
 
 ## Add a layer to a function
 
